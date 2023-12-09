@@ -44,7 +44,6 @@ To view the html page, run:
 
 ```shell
 cd htmlcov
-c
+python -m http.server 8080
 ```
-
 and go to http://localhost:8080.
